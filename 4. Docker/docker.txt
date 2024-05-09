@@ -1,0 +1,8 @@
+from node:alpine
+Copy ./partb
+CMD node /partb/gau.js
+
+node gau.js
+docker build -t nameoffolder .
+
+docker images
